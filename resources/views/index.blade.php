@@ -1,4 +1,3 @@
-
 <x-app-layout>
 	<div class="filters flex space-x-6">
 		<div class="w-1/3">
