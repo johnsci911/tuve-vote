@@ -81,7 +81,7 @@
 					<div class="text-gray-500">Votes</div>
 				</div>
 				<div class="mt-8">
-					<button class="w-20 bg-blue border border-blue-200 hover:border-blue-hover transition duration-150 ease-in font-bold text-xxs uppercase rounded-xl px-4 py-3">Vote</button>
+					<button class="w-20 bg-blue border border-blue-200 hover:bg-blue-hover text-white transition duration-150 ease-in font-bold text-xxs uppercase rounded-xl px-4 py-3">Vote</button>
 				</div>
 			</div>
 			<div class="flex px-2 py-6">
