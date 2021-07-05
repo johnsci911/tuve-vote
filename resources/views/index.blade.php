@@ -36,16 +36,18 @@
 					<button class="w-20 bg-gray-200 border border-gray-200 hover:border-gray-400 transition duration-150 ease-in font-bold text-xxs uppercase rounded-xl px-4 py-3">Vote</button>
 				</div>
 			</div>
-			<div class="flex px-2 py-6">
-				<a href="#" class="flex-none">
-					<img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" href="#" alt="avatar" class="w-14 h-14 rounded-xl"></img>
-				</a>
-				<div class="mx-4">
+			<div class="flex px-2 py-6 flex-1">
+				<div class="flex-none">	
+					<a href="#">
+						<img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" href="#" alt="avatar" class="w-14 h-14 rounded-xl"></img>
+					</a>
+				</div>
+				<div class="w-full mx-4">
 					<h4 class="text-xl font-semibold">
 						<a href="#" class="hover:underline">Random title can go here</a>
 					</h4>
 					<div class="text-gray-600 mt-3 line-clamp-3">		
-                		Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, qui
+                		Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
 					</div>
 
 					<div class="flex items-center justify-between mt-6">
@@ -58,7 +60,7 @@
 						</div>
 						<div class="flex items-center space-x-2">
 							<div class="bg-gray-200 text-xxs font-bold uppercase leading-none rounded-xl full text-center w-28 h-7 py-2 px-4">Open</div>
-							<button class="relative bg-gray-100 rounded-full hover:bg-gray-200 transition duration-150 h-7 ease-in py-2 px-4">
+							<button class="relative border bg-gray-100 rounded-full hover:bg-gray-200 transition duration-150 h-7 ease-in py-2 px-4">
 								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
 									<path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z" />
 								</svg>
@@ -85,9 +87,11 @@
 				</div>
 			</div>
 			<div class="flex px-2 py-6">
-				<a href="#" class="flex-none">
-					<img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" href="#" alt="avatar" class="w-14 h-14 rounded-xl"></img>
-				</a>
+				<div class="flex-none">
+					<a href="#">
+						<img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" href="#" alt="avatar" class="w-14 h-14 rounded-xl"></img>
+					</a>
+				</div>
 				<div class="mx-4">
 					<h4 class="text-xl font-semibold">
 						<a href="#" class="hover:underline">Random title can go here</a>
@@ -106,7 +110,7 @@
 						</div>
 						<div class="flex items-center space-x-2">
 							<div class="bg-yellow text-xxs text-white rounded-xl font-bold uppercase leading-none rounded full text-center w-28 h-7 py-2 px-4">In progress</div>
-							<button class="relative bg-gray-100 rounded-full hover:bg-gray-200 transition duration-150 h-7 ease-in py-2 px-4">
+							<button class="relative border bg-gray-100 rounded-full hover:bg-gray-200 transition duration-150 h-7 ease-in py-2 px-4">
 								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
 									<path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z" />
 								</svg>
@@ -129,9 +133,11 @@
 				</div>
 			</div>
 			<div class="flex px-2 py-6">
-				<a href="#" class="flex-none">
-					<img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" href="#" alt="avatar" class="w-14 h-14 rounded-xl"></img>
-				</a>
+				<div class="flex-none">
+					<a href="#">
+						<img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" href="#" alt="avatar" class="w-14 h-14 rounded-xl"></img>
+					</a>
+				</div>
 				<div class="mx-4">
 					<h4 class="text-xl font-semibold">
 						<a href="#" class="hover:underline">Random title can go here</a>
@@ -150,7 +156,7 @@
 						</div>
 						<div class="flex items-center space-x-2">
 							<div class="bg-red text-white text-xxs font-bold uppercase leading-none rounded-xl full text-center w-28 h-7 py-2 px-4">Closed</div>
-							<button class="relative bg-gray-100 rounded-full hover:bg-gray-200 transition duration-150 h-7 ease-in py-2 px-4">
+							<button class="relative border bg-gray-100 rounded-full hover:bg-gray-200 transition duration-150 h-7 ease-in py-2 px-4">
 								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
 									<path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z" />
 								</svg>
@@ -173,9 +179,11 @@
 				</div>
 			</div>
 			<div class="flex px-2 py-6">
-				<a href="#" class="flex-none">
-					<img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" href="#" alt="avatar" class="w-14 h-14 rounded-xl"></img>
-				</a>
+				<div class="flex-none">
+					<a href="#">
+						<img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" href="#" alt="avatar" class="w-14 h-14 rounded-xl"></img>
+					</a>
+				</div>
 				<div class="mx-4">
 					<h4 class="text-xl font-semibold">
 						<a href="#" class="hover:underline">Random title can go here</a>
@@ -194,7 +202,7 @@
 						</div>
 						<div class="flex items-center space-x-2">
 							<div class="bg-green text-white text-white text-xxs font-bold uppercase leading-none rounded-xl full text-center w-28 h-7 py-2 px-4">Implemented</div>
-							<button class="relative bg-gray-100 rounded-full hover:bg-gray-200 transition duration-150 h-7 ease-in py-2 px-4">
+							<button class="relative border bg-gray-100 rounded-full hover:bg-gray-200 transition duration-150 h-7 ease-in py-2 px-4">
 								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
 									<path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z" />
 								</svg>
@@ -217,9 +225,11 @@
 				</div>
 			</div>
 			<div class="flex px-2 py-6">
-				<a href="#" class="flex-none">
-					<img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" href="#" alt="avatar" class="w-14 h-14 rounded-xl"></img>
-				</a>
+				<div class="flex-none">
+					<a href="#">
+						<img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" href="#" alt="avatar" class="w-14 h-14 rounded-xl"></img>
+					</a>
+				</div>
 				<div class="mx-4">
 					<h4 class="text-xl font-semibold">
 						<a href="#" class="hover:underline">Random title can go here</a>
@@ -238,7 +248,7 @@
 						</div>
 						<div class="flex items-center space-x-2">
 							<div class="bg-purple text-white text-white text-xxs font-bold uppercase leading-none rounded-xl full text-center w-28 h-7 py-2 px-4">Considering</div>
-							<button class="relative bg-gray-100 rounded-full hover:bg-gray-200 transition duration-150 h-7 ease-in py-2 px-4">
+							<button class="relative border bg-gray-100 rounded-full hover:bg-gray-200 transition duration-150 h-7 ease-in py-2 px-4">
 								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
 									<path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z" />
 								</svg>
