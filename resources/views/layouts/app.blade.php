@@ -48,7 +48,7 @@
             </div>
         </header>
         <main class="container mx-auto flex flex-col md:flex-row max-w-custom mx-auto">
-            <div class="w-70 mx-auto md:mx-0 md:mr-5">
+            <div class="w-70 mx-auto md:mx-0 md:mr-5 pl-4">
 				<div class="bg-white md:sticky md:md:top-8 border-2 border-blue rounded-xl mt-16"
 					style="
 						border-image-source: linear-gradient(to bottom, rgba(50, 138, 241, 0.22), rgba(99, 123, 255, 0));
@@ -91,7 +91,7 @@
 					</form>
 				</div>
             </div>
-            <div class="w-full px-2 md:px-0 md:w-175">
+            <div class="w-full px-2 md:px-0 md:w-175 mr-4">
                 <nav class="hidden md:flex items-center justify-between text-xs">
                     <ul class="flex uppercase font-semibold space-x-10 border-b-4 pb-3">
                         <li><a href="" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">All Ideas (87)</a></li>
