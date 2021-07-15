@@ -48,7 +48,7 @@
             </div>
         </header>
         <main class="container mx-auto flex flex-col md:flex-row max-w-custom mx-auto">
-            <div class="w-70 mx-auto md:mx-0 md:mr-5 pl-4">
+            <div class="w-70 mx-auto md:mx-2 md:mr-5 pl-4">
 				<div class="bg-white md:sticky md:top-8 border-2 border-blue rounded-xl mt-16"
 					style="
 						border-image-source: linear-gradient(to bottom, rgba(50, 138, 241, 0.22), rgba(99, 123, 255, 0));
