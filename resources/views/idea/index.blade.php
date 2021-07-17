@@ -77,7 +77,7 @@
                                 x-data="{ isOpen: false }"
                                 class="flex items-center space-x-2 mt-4 md:mt-0"
                             >
-                                <div class="bg-gray-200 text-xxs font-bold uppercase leading-none rounded-xl full text-center w-28 h-7 py-2 px-4">Open</div>
+								<div class="{{ $idea->status->classes }} text-xxs font-bold uppercase leading-none rounded-xl full text-center w-28 h-7 py-2 px-4">{{ $idea->status->name }}</div>
                                 <button 
                                     @click="isOpen = !isOpen"
                                     class="relative border bg-gray-100 rounded-full hover:bg-gray-200 transition duration-150 h-7 ease-in py-2 px-4"
