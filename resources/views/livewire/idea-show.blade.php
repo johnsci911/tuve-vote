@@ -53,11 +53,17 @@
 							<div class="text-xxs font-semibold leading-none text-gray-400">Votes</div>
 						</div>
 						@if ($hasVoted)
-							<button class="w-20 bg-blue border-blue border-gray-200 font-bold text-xxs uppercase rounded-xl transition duration-150 ease-in hover:border-blue px-4 py-3 -mx-5 text-white">
+							<button
+								wire:click.prevent="vote" 
+								class="w-20 bg-blue border-blue border-gray-200 font-bold text-xxs uppercase rounded-xl transition duration-150 ease-in hover:border-blue px-4 py-3 -mx-5 text-white"
+							>
 								Voted
 							</button>
 						@else
-							<button class="w-20 bg-gray-200 border border-gray-200 font-bold text-xxs uppercase rounded-xl transition duration-150 ease-in hover:border-gray-400 px-4 py-3 -mx-5">
+							<button
+								wire:click.prevent="vote" 
+								class="w-20 bg-gray-200 border border-gray-200 font-bold text-xxs uppercase rounded-xl transition duration-150 ease-in hover:border-gray-400 px-4 py-3 -mx-5"
+							>
 								Vote
 							</button>
 						@endif
@@ -197,11 +203,17 @@
 				<div class="text-gray-400 text-xs leading-none">Votes</div>
 			</div>
 			@if ($hasVoted)
-				<button type="button" class="uppercase w-32 h-11 text-sm bg-blue font-semibold rounded-xl border border-gray-200 hover:border-blue transition duration-150 ease-in px-6 py-3 text-white">
+				<button
+					wire:click.prevent="vote"
+					type="button" class="uppercase w-32 h-11 text-sm bg-blue font-semibold rounded-xl border border-gray-200 hover:border-blue transition duration-150 ease-in px-6 py-3 text-white"
+				>
 					<span>Voted</span>
 				</button>
 			@else
-				<button type="button" class="uppercase w-32 h-11 text-sm bg-gray-200 font-semibold rounded-xl border border-gray-200 hover:border-gray-400 transition duration-150 ease-in px-6 py-3">
+				<button 
+					wire:click.prevent="vote"
+					type="button" class="uppercase w-32 h-11 text-sm bg-gray-200 font-semibold rounded-xl border border-gray-200 hover:border-gray-400 transition duration-150 ease-in px-6 py-3"
+				>
 					<span>Vote</span>
 				</button>
 			@endif
