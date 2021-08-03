@@ -34,7 +34,7 @@ class IdeaIndex extends Component
 			}
 			$this->votesCount--;
 			$this->hasVoted = false;
-		} else {	
+		} else {
 			try {
 				$this->idea->vote(auth()->user());
 			} catch (DuplicateVoteException $e) {
